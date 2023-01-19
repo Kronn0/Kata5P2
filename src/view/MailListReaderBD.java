@@ -15,7 +15,6 @@ public class MailListReaderBD {
     private static List<Mail> list = new ArrayList();
 
     private static Connection connect() {
-// SQLite connection string
         String url = "jdbc:sqlite:Kata5.db";
         Connection conn = null;
         try {
