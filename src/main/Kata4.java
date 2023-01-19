@@ -24,7 +24,7 @@ public class Kata4 {
     }
 
     private static void input() {
-         mailList = MailListReader.read(fileName);
+         mailList = MailListReaderBD.read();
     }
 
     private static void process() {
